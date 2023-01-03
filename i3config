@@ -40,19 +40,21 @@ bindsym $mod+minus scratchpad show
 #  >switch to workspace
 bindsym $mod+1 workspace Term
 bindsym $mod+2 workspace Web
-bindsym $mod+3 workspace Hack
-bindsym $mod+4 workspace Code 
-bindsym $mod+5 workspace Text
-bindsym $mod+6 workspace Game
-bindsym $mod+7 workspace Music
+bindsym $mod+3 workspace Docs
+bindsym $mod+4 workspace Hack
+bindsym $mod+5 workspace Code
+bindsym $mod+6 workspace Misc
+bindsym $mod+7 workspace Game
+bindsym $mod+8 workspace Text
 #  >move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace Term
 bindsym $mod+Shift+2 move container to workspace Web
-bindsym $mod+Shift+3 move container to workspace Hack
-bindsym $mod+Shift+4 move container to workspace Code
-bindsym $mod+Shift+5 move container to workspace Text
-bindsym $mod+Shift+6 move container to workspace Game
-bindsym $mod+Shift+7 move container to workspace Music
+bindsym $mod+Shift+3 move container to workspace Docs
+bindsym $mod+Shift+4 move container to workspace Hack
+bindsym $mod+Shift+5 move container to workspace Code
+bindsym $mod+Shift+6 move container to workspace Misc
+bindsym $mod+Shift+7 move container to workspace Game
+bindsym $mod+Shift+8 move container to workspace Text
 ### --- MODES --- ###
 mode " Resize Mode" {
         bindsym Left        resize shrink width 5 px or 5 ppt
